@@ -46,19 +46,19 @@ Here calling join method on handle blocks the thread currently running and waits
 
 Here main thread will wait for the spawned thread to complete its for loop , then main thread run its own for loop.Output would look like this -
 
-hi number 1 from the spawned thread!
-hi number 2 from the spawned thread!
-hi number 3 from the spawned thread!
-hi number 4 from the spawned thread!
-hi number 5 from the spawned thread!
-hi number 6 from the spawned thread!
-hi number 7 from the spawned thread!
-hi number 8 from the spawned thread!
-hi number 9 from the spawned thread!
-hi number 1 from the main thread!
-hi number 2 from the main thread!
-hi number 3 from the main thread!
-hi number 4 from the main thread!
+   hi number 1 from the spawned thread!
+   hi number 2 from the spawned thread!
+   hi number 3 from the spawned thread!
+   hi number 4 from the spawned thread!
+   hi number 5 from the spawned thread!
+   hi number 6 from the spawned thread!
+   hi number 7 from the spawned thread!
+   hi number 8 from the spawned thread!
+   hi number 9 from the spawned thread!
+   hi number 1 from the main thread!
+   hi number 2 from the main thread!
+   hi number 3 from the main thread!
+   hi number 4 from the main thread!
 
 
 
