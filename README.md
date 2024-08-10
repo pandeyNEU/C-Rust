@@ -48,6 +48,12 @@ Here calling join method on handle blocks the thread currently running and waits
 
 Comparable to C++,Slightly overhead due to Safety checks and have more complex compilation checks.
 
+@Community-Support
+
+Rust is a language of fast growing community. Developers help each other to solve problem and make community richer day by day.
+Visit the forum - 
+https://users.rust-lang.org/
+
 
 
 
