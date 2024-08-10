@@ -12,7 +12,7 @@ for example:
     let s2 = s1;
     println!("{s1}, world!");
 
-    Here rust will ensure memory safty by making s1 invalid. We can no longer access s1 after line let s2 = s1. Therfore Rust does not care about freeing memory of s1.
+Here rust will ensure memory safty by making s1 invalid. We can no longer access s1 after line let s2 = s1. Therfore Rust does not care about freeing memory of s1.
 
 @Concurrency
 
@@ -22,19 +22,20 @@ For example:
 
 
 use std::thread;
+
 use std::time::Duration;
 
 fn main() {
     let handle = thread::spawn(|| {
         for i in 1..10 {
-            println!("hi number {i} from the spawned thread!");
+            println!("hi number {i} from             the spawned thread!");
             thread::sleep(Duration::from_millis(1));
         }
     });
 
-    handle.join().unwrap();
+handle.join().unwrap();
 
-    for i in 1..5 {
+for i in 1..5 {
         println!("hi number {i} from the main thread!");
         thread::sleep(Duration::from_millis(1));
     }
