@@ -21,11 +21,11 @@ Concurrent programming(where different parts of program run independetly) and Pa
 For example:
 
 
-  use std::thread;
+    use std::thread;
 
-  use std::time::Duration;
+    use std::time::Duration;
 
-  fn main() {
+    fn main() {
   
     let handle = thread::spawn(|| {
         for i in 1..10 {
