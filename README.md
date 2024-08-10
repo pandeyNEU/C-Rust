@@ -38,9 +38,9 @@ For example:
 
     for i in 1..5 {
         println!("hi number {i} from the            main thread!");
-            thread::sleep(Duration::from_millis(1));
+    thread::sleep(Duration::from_millis(1));
     }
-   }
+    }
 
 Here calling join method on handle blocks the thread currently running and waits for the thread represented by handle terminates.
 
