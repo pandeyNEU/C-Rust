@@ -16,8 +16,7 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-  schedule:
-    workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   analyze:
